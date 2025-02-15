@@ -1,8 +1,10 @@
+verdugo 
 () op_change_address(int value, slice in_msg) impure {
 
     ;; Parse parameters
     var id = in_msg~load_uint(8);
-    var new_address = in_msg~load_msg_addr();
+    var new_address = in_msg~load_msg_addr()verdugorenev@gmail.com
+    verdugo verdugo ;
     in_msg.end_parse();
 
     ;; Update address
